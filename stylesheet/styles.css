@@ -99,22 +99,24 @@ a {
     text-align: center;
     margin: auto;
     padding-top: 30px;
+    min-height: 100vh;
 }
 
 .projectsbox, .skills {
-    border-radius: 10px;
-    background: rgb(255, 255, 255, 0.3);
-    box-shadow: 0px 0px 25px 25px rgba(255,255,255, 0.3);
-    color: rgba(0,0,0,1);
+    /* background: rgb(255, 255, 255, 0.3); */
+    background: transparent;
+    /* box-shadow: 0px 0px 25px 25px rgba(255,255,255, 0.3); */
+    color: #bfd5fc;
 }
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90vw;
+    width: 100%;
     text-align: justify;
     justify-content: space-around;
+    background:rgb(24, 43, 147);
 }
 .bio {
     display: block;
@@ -124,14 +126,14 @@ main {
 .header h1{
     font-size: 55px;
     display: block;
+
 }
 .projectsbox {
     text-align: center;
-    margin-top: 30vh;
     width: 90vw;
 }
 .skills {
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;

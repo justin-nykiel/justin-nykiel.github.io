@@ -1,8 +1,8 @@
 
-
-const socDiv = document.getElementById("social")
+    const socDiv = document.querySelector("#social")
     let slid = false;
     const socialSlide = function() {
+        console.log("reee")
         if(slid === false){
             socDiv.setAttribute("class", "slide");
             socDiv.onanimationend = () => {
@@ -18,24 +18,17 @@ const socDiv = document.getElementById("social")
             }
             slid = false;
         }
-        
+
     }
     const scrollSlide = () => {
         if(socDiv.style.left === "0px" && socDiv.className !== "unSlide") {
             socialSlide();
         }
     }
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-      return new bootstrap.Tooltip(tooltipTriggerEl,{
-          boundary: 'window'
-      })
+
+
+
+    document.addEventListener('DOMContentLoaded', ()=>{
+        socDiv.addEventListener("click", socialSlide);
+        window.addEventListener("scroll", scrollSlide);
     })
-
-
-document.addEventListener('DOMContentLoaded', ()=>{
-    
-    socDiv.addEventListener("click", socialSlide);
-    window.addEventListener("scroll", scrollSlide);
-    
-})

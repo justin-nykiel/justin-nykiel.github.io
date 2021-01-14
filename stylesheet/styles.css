@@ -58,6 +58,7 @@ a {
     width: 50px;
     height: 120px;
     background-color: #5971b3;
+    z-index: 100;
 
 }
 #social .linkedIn:visited{
@@ -94,7 +95,7 @@ a {
 @keyframes socialSlide {
     from {left: -52px;}
     to {left: 0;}
-  }
+}
 .header {
     text-align: center;
     margin: auto;
@@ -221,7 +222,6 @@ h3 {
     font-weight: bold;
 }
 @media only screen and (min-width: 450px){
-    
     .devicon-git-plain:hover{
         top: -10px;
     }

@@ -58,7 +58,7 @@ a {
     width: 50px;
     height: 120px;
     background-color: #5971b3;
-    z-index: 100;
+    z-index: 10000;
 
 }
 #social .linkedIn:visited{
@@ -98,7 +98,6 @@ a {
 }
 .header {
     text-align: center;
-    margin: auto;
     padding-top: 30px;
     min-height: 60vh;
     width: 100%;
@@ -126,14 +125,14 @@ main {
 }
 .bio {
     display: block;
-    margin-top: 50px;
     width: 60vw;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
 }
 .header h1{
     font-size: 55px;
     display: block;
-
 }
 .projectsbox {
     text-align: center;
@@ -203,7 +202,6 @@ footer > div {
     background-color: transparent;
     text-align: center;
 }
-
 .site img {
     opacity: 0.3;
 }
@@ -235,6 +233,6 @@ h3 {
     transition: top ease 0.5s;
 }  
 .techStack {
-    margin-top: auto;
+    margin-top: 20px;
     width: 100%;
 }

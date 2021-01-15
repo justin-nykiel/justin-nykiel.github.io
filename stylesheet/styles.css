@@ -275,11 +275,11 @@ h3 {
     margin-top: 20px;
     width: 100%;
 }
-#resume {
+.resume {
     position: absolute;
     right: 15px;
     top: 15px;
 }
-#resume:visited {
+.resume:visited {
     color: black;
 }

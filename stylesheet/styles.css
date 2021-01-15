@@ -239,32 +239,30 @@ h3 {
     animation-timing-function: ease-in-out;
     padding: 5px;
 }  
-#js {
-    animation-delay: 5s;
-}
+
 #html {
-    animation-delay: 5.25s;
+    animation-delay: 0.25s;
 }
 #css {
-    animation-delay: 5.5s;
+    animation-delay: 0.5s;
 }
 #node {
-    animation-delay: 5.75s;
+    animation-delay: 0.75s;
 }
 #express {
-    animation-delay: 6s;
+    animation-delay: 1s;
 }
 #postgres {
-    animation-delay: 6.25s;
+    animation-delay: 1.25s;
 }
 #sequel {
-    animation-delay: 6.5s;
+    animation-delay: 1.5s;
 }
 #react {
-    animation-delay: 6.75s;
+    animation-delay: 1.75s;
 }
 #mongo {
-    animation-delay: 7s;
+    animation-delay: 2s;
 }
 @keyframes float {
     0%{top: 0px;}

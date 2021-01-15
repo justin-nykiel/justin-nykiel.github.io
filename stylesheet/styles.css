@@ -121,7 +121,8 @@ main {
     width: 100%;
     text-align: justify;
     justify-content: space-around;
-    background:rgb(24, 43, 147);
+    /* background:rgb(24, 43, 147); */
+    background-image: url("https://img.freepik.com/free-vector/dark-low-poly-background_1048-7971.jpg?size=626&ext=jpg")
 }
 .bio {
     display: block;
@@ -203,7 +204,7 @@ footer > div {
     text-align: center;
 }
 .site img {
-    opacity: 0.3;
+    opacity: 0.5;
 }
 .site:hover img {
     opacity: 1;
@@ -219,19 +220,57 @@ h3 {
     font-size: 25px;
     font-weight: bold;
 }
-@media only screen and (min-width: 450px){
+/* @media only screen and (min-width: 450px){
     .devicon-git-plain:hover{
         top: -10px;
     }
-} 
+}  */
 .devicon-git-plain {
     max-width: 3em;
     margin: 3 .5em 0 .5em;
     display: inline-block;
     position: relative;
     top: 0;
-    transition: top ease 0.5s;
+    /* transition: top ease 0.5s; */
+    animation-name: float;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }  
+#js {
+    animation-delay: 5s;
+}
+#html {
+    animation-delay: 5.25s;
+}
+#css {
+    animation-delay: 5.5s;
+}
+#node {
+    animation-delay: 5.75s;
+}
+#express {
+    animation-delay: 6s;
+}
+#postgres {
+    animation-delay: 6.25s;
+}
+#sequel {
+    animation-delay: 6.5s;
+}
+#react {
+    animation-delay: 6.75s;
+}
+#mongo {
+    animation-delay: 7s;
+}
+@keyframes float {
+    0%{top: 0px;}
+    8%{top: -10px}
+    20%{top: 0px;}
+    100% {top: 0px;}
+    
+}
 .techStack {
     margin-top: 20px;
     width: 100%;

@@ -172,6 +172,13 @@ main {
     flex-wrap: wrap; 
     margin-bottom: 20px;
 }
+.siteBox{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
 .skills {
     text-align: center;
 }
@@ -189,7 +196,7 @@ main {
     left: 50%;
     transform: translate(-50%);
     top: 20%;
-    width: 150px;
+    width: 220px;
 }
 .site .description{
     position: absolute;
@@ -286,4 +293,21 @@ h3 {
 }
 .resume:visited {
     color: black;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 80px;
+    margin: auto;
+    color: white;
+}
+
+.gitLinks:visited {
+    color: white;
 }
